@@ -10,9 +10,9 @@
 ## PROGRAM
 CLIENT:
 
-import socket 
-s=socket.socket() 
-s.bind(('localhost',8000)) 
+  import socket 
+  s=socket.socket() 
+  s.bind(('localhost',8000)) 
 s.listen(5) 
 c,addr=s.accept() 
 size=int(input("Enter number of frames to send : ")) 
